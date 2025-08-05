@@ -8,9 +8,18 @@ Asegúrate de tener **Docker** y **Docker Compose** instalados en tu sistema. Pu
 ## Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:
-
-<pre><code>``` 📦 Proyecto ├── backend/ # Código fuente del backend (NestJS) │ ├── src/ │ ├── Dockerfile.backend # Dockerfile para el servicio del backend │ └── ... ├── frontend/ # Código fuente del frontend (React + Vite) │ ├── src/ │ ├── Dockerfile.frontend # Dockerfile para el servicio del frontend │ └── ... ├── docker-compose.yml # Archivo principal para orquestar ambos servicios └── README.md ``` </code></pre>
-
+```
+├── backend/                  # Código fuente del backend (NestJS)
+│   ├── src/
+│   ├── Dockerfile.backend    # Dockerfile para el servicio del backend
+│   └── ...
+├── frontend/                 # Código fuente del frontend (React + Vite)
+│   ├── src/
+│   ├── Dockerfile.frontend   # Dockerfile para el servicio del frontend
+│   └── ...
+├── docker-compose.yml        # Archivo principal para orquestar ambos servicios
+└── README.md
+```
 ---
 
 ## Instrucciones para Levantar el Proyecto
