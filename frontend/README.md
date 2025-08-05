@@ -1,4 +1,4 @@
-# 🚀 Frontend - Registro de Incidentes (React + Vite)
+# Frontend - Registro de Incidentes (React + Vite)
 Este proyecto es el frontend de una aplicación de registro de incidentes. Fue desarrollado con **React** y **Vite**, y se conecta a un backend NestJS disponible en `http://localhost:3001`.
 
 ## Tecnologías utilizadas
