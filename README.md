@@ -40,3 +40,5 @@ Una vez que los contenedores estén en ejecución, podrás acceder a las aplicac
 - Frontend: http://localhost:5173
 
 - Backend (API): http://localhost:3001
+
+- Documentacion con Swagger (API): http://localhost:3001/api
