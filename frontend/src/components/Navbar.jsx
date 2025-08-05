@@ -38,7 +38,7 @@ return (
                 </NavLink>
             </nav>
 
-            {/* Botónes*/}
+            {/* Botón*/}
             <Button 
                 variant="outline" 
                 className="mt-4 md:mt-0 ml-0 md:ml-4 cursor-pointer"
