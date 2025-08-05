@@ -3,22 +3,13 @@ Este es un proyecto que consta de un backend (NestJS) y un frontend (React con V
 
 ## Prerrequisitos
 
-Asegúrate de tener **Docker** y **Docker Compose** instalados en tu sistema. Puedes descargarlos desde el sitio oficial de Docker:
+Asegúrate de tener **Docker** y **Docker Compose** instalados en tu sistema. Puedes descargarlos desde el sitio oficial de Docker
 
 ## Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:
 
-├── backend/                  # Código fuente del backend (NestJS)
-│   ├── src/
-│   ├── Dockerfile.backend    # Dockerfile para el servicio del backend
-│   └── ...
-├── frontend/                 # Código fuente del frontend (React + Vite)
-│   ├── src/
-│   ├── Dockerfile.frontend   # Dockerfile para el servicio del frontend
-│   └── ...
-├── docker-compose.yml        # Archivo principal para orquestar ambos servicios
-└── README.md
+<pre><code>``` 📦 Proyecto ├── backend/ # Código fuente del backend (NestJS) │ ├── src/ │ ├── Dockerfile.backend # Dockerfile para el servicio del backend │ └── ... ├── frontend/ # Código fuente del frontend (React + Vite) │ ├── src/ │ ├── Dockerfile.frontend # Dockerfile para el servicio del frontend │ └── ... ├── docker-compose.yml # Archivo principal para orquestar ambos servicios └── README.md ``` </code></pre>
 
 ---
 
